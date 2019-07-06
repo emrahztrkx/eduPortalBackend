@@ -1,0 +1,55 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Migrator/educationPortal.Migrator.csproj",
+    "projectName": "educationPortal.Migrator",
+    "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Migrator/educationPortal.Migrator.csproj",
+    "outputPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Migrator/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj": {
+            "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj"
+          },
+          "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj": {
+            "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Abp.Castle.Log4Net": {
+          "target": "Package",
+          "version": "[4.3.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "portable-net45+win8+wp8+wpa81",
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

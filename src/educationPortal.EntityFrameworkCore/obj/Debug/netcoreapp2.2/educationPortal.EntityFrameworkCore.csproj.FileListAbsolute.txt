@@ -1,0 +1,16 @@
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll.config
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.deps.json
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.runtimeconfig.json
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.runtimeconfig.dev.json
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.pdb
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.Core.dll
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.csprojAssemblyReference.cache
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll.config
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.AssemblyInfoInputs.cache
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.AssemblyInfo.cs
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.csproj.CopyComplete
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll
+/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.pdb
