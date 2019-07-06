@@ -1,11 +1,14 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Migrator/educationPortal.Migrator.csproj",
+    "projectUniqueName": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Migrator/educationPortal.Migrator.csproj",
     "projectName": "educationPortal.Migrator",
-    "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Migrator/educationPortal.Migrator.csproj",
-    "outputPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Migrator/obj/",
+    "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Migrator/educationPortal.Migrator.csproj",
+    "outputPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Migrator/obj/",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
@@ -15,11 +18,11 @@
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj": {
-            "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj"
+          "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj": {
+            "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj"
           },
-          "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj": {
-            "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj"
+          "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj": {
+            "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj"
           }
         }
       }

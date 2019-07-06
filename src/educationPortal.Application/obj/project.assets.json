@@ -7247,17 +7247,21 @@
     ]
   },
   "packageFolders": {
-    "/Users/emrahozturk/.nuget/packages/": {}
+    "/Users/emrahozturk/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Application/educationPortal.Application.csproj",
+      "projectUniqueName": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/educationPortal.Application.csproj",
       "projectName": "educationPortal.Application",
-      "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Application/educationPortal.Application.csproj",
+      "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/educationPortal.Application.csproj",
       "packagesPath": "/Users/emrahozturk/.nuget/packages/",
-      "outputPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Application/obj/",
+      "outputPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/Users/emrahozturk/.config/NuGet/NuGet.Config"
       ],
@@ -7270,8 +7274,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj": {
-              "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj"
+            "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj": {
+              "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj"
             }
           }
         }

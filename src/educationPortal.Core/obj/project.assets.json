@@ -7236,17 +7236,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj",
+      "projectUniqueName": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj",
       "projectName": "educationPortal.Core",
-      "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj",
+      "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj",
       "packagesPath": "/Users/emrahozturk/.nuget/packages/",
-      "outputPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Core/obj/",
+      "outputPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Core/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/emrahozturk/.nuget/NuGet/NuGet.Config"
+        "/Users/emrahozturk/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"

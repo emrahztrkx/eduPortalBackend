@@ -12294,17 +12294,21 @@
     ]
   },
   "packageFolders": {
-    "/Users/emrahozturk/.nuget/packages/": {}
+    "/Users/emrahozturk/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Web.Core/educationPortal.Web.Core.csproj",
+      "projectUniqueName": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/educationPortal.Web.Core.csproj",
       "projectName": "educationPortal.Web.Core",
-      "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Web.Core/educationPortal.Web.Core.csproj",
+      "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/educationPortal.Web.Core.csproj",
       "packagesPath": "/Users/emrahozturk/.nuget/packages/",
-      "outputPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Web.Core/obj/",
+      "outputPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/Users/emrahozturk/.config/NuGet/NuGet.Config"
       ],
@@ -12317,11 +12321,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Application/educationPortal.Application.csproj": {
-              "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Application/educationPortal.Application.csproj"
+            "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/educationPortal.Application.csproj": {
+              "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/educationPortal.Application.csproj"
             },
-            "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj": {
-              "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj"
+            "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj": {
+              "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj"
             }
           }
         }

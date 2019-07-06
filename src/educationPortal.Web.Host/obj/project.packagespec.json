@@ -1,11 +1,14 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Web.Host/educationPortal.Web.Host.csproj",
+    "projectUniqueName": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Host/educationPortal.Web.Host.csproj",
     "projectName": "educationPortal.Web.Host",
-    "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Web.Host/educationPortal.Web.Host.csproj",
-    "outputPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Web.Host/obj/",
+    "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Host/educationPortal.Web.Host.csproj",
+    "outputPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Host/obj/",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
@@ -15,8 +18,8 @@
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Web.Core/educationPortal.Web.Core.csproj": {
-            "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Web.Core/educationPortal.Web.Core.csproj"
+          "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/educationPortal.Web.Core.csproj": {
+            "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/educationPortal.Web.Core.csproj"
           }
         }
       }

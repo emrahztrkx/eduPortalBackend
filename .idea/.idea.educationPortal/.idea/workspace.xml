@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b77016c4-37ab-4a3b-b953-d594de03c6a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/educationPortal.sln" beforeDir="false" afterPath="$PROJECT_DIR$/educationPortal.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/obj/educationPortal.Application.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/obj/educationPortal.Application.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/obj/educationPortal.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/obj/educationPortal.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/educationPortal.Core.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/educationPortal.Core.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/educationPortal.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/educationPortal.Core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/educationPortal.EntityFrameworkCore.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/educationPortal.EntityFrameworkCore.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/educationPortal.EntityFrameworkCore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/educationPortal.EntityFrameworkCore.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/Debug/netcoreapp2.2/educationPortal.Migrator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/Debug/netcoreapp2.2/educationPortal.Migrator.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/Debug/netcoreapp2.2/educationPortal.Migrator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/Debug/netcoreapp2.2/educationPortal.Migrator.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/educationPortal.Migrator.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/educationPortal.Migrator.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/educationPortal.Migrator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/educationPortal.Migrator.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/educationPortal.Web.Core.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/educationPortal.Web.Core.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/educationPortal.Web.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/educationPortal.Web.Core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/Debug/netcoreapp2.2/educationPortal.Web.Host.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/Debug/netcoreapp2.2/educationPortal.Web.Host.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/Debug/netcoreapp2.2/educationPortal.Web.Host.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/Debug/netcoreapp2.2/educationPortal.Web.Host.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/educationPortal.Web.Host.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/educationPortal.Web.Host.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/educationPortal.Web.Host.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/educationPortal.Web.Host.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="812" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="educationPortal" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="educationPortal" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="educationPortal" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="educationPortal.Web.Host" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.educationPortal.Web.Host">
+    <configuration name="educationPortal.Web.Host" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/educationPortal.Web.Host/educationPortal.Web.Host.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="educationPortal.Web.Host" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="educationPortal.Web.Host: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/educationPortal.Web.Host/educationPortal.Web.Host.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b77016c4-37ab-4a3b-b953-d594de03c6a1" name="Default Changelist" comment="" />
+      <created>1562434822003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562434822003</updated>
+      <workItem from="1562434823886" duration="1019000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1019000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Build" weight="0.32916668" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

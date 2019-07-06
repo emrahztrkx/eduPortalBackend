@@ -1,0 +1,17 @@
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.Web.Core.deps.json
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.Web.Core.dll
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.Web.Core.pdb
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.Application.dll
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.dll
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.Application.pdb
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.pdb
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll.config
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.csprojAssemblyReference.cache
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.csproj.CoreCompileInputs.cache
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.AssemblyInfoInputs.cache
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.AssemblyInfo.cs
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.csproj.CopyComplete
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.dll
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.pdb

@@ -7615,17 +7615,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj",
+      "projectUniqueName": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj",
       "projectName": "educationPortal.EntityFrameworkCore",
-      "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj",
+      "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.EntityFrameworkCore/educationPortal.EntityFrameworkCore.csproj",
       "packagesPath": "/Users/emrahozturk/.nuget/packages/",
-      "outputPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.EntityFrameworkCore/obj/",
+      "outputPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.EntityFrameworkCore/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/emrahozturk/.nuget/NuGet/NuGet.Config"
+        "/Users/emrahozturk/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -7636,8 +7636,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj": {
-              "projectPath": "/Users/emrahozturk/RiderProjects/educationPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj"
+            "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj": {
+              "projectPath": "/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Core/educationPortal.Core.csproj"
             }
           }
         }

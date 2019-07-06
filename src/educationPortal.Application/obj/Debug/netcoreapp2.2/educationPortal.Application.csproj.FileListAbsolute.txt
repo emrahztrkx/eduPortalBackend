@@ -1,0 +1,12 @@
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/bin/Debug/netcoreapp2.2/educationPortal.Application.deps.json
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/bin/Debug/netcoreapp2.2/educationPortal.Application.dll
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/bin/Debug/netcoreapp2.2/educationPortal.Application.pdb
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/bin/Debug/netcoreapp2.2/educationPortal.Core.dll
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.csprojAssemblyReference.cache
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.csproj.CoreCompileInputs.cache
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.AssemblyInfoInputs.cache
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.AssemblyInfo.cs
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.csproj.CopyComplete
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.dll
+/Users/emrahozturk/Desktop/eduPortalBackend/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.pdb

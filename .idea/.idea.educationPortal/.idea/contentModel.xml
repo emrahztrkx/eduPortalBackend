@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="educationPortal.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src" t="Include">
+        <e p="educationPortal.Application" t="IncludeRecursive">
+          <e p="AppConsts.cs" t="Include" />
+          <e p="Authorization" t="Include">
+            <e p="AbpLoginResultTypeHelper.cs" t="Include" />
+            <e p="Accounts" t="Include">
+              <e p="AccountAppService.cs" t="Include" />
+              <e p="Dto" t="Include">
+                <e p="IsTenantAvailableInput.cs" t="Include" />
+                <e p="IsTenantAvailableOutput.cs" t="Include" />
+                <e p="RegisterInput.cs" t="Include" />
+                <e p="RegisterOutput.cs" t="Include" />
+                <e p="TenantAvailabilityState.cs" t="Include" />
+              </e>
+              <e p="IAccountAppService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Configuration" t="Include">
+            <e p="ConfigurationAppService.cs" t="Include" />
+            <e p="Dto" t="Include">
+              <e p="ChangeUiThemeInput.cs" t="Include" />
+            </e>
+            <e p="IConfigurationAppService.cs" t="Include" />
+            <e p="Ui" t="Include">
+              <e p="UiThemeInfo.cs" t="Include" />
+              <e p="UiThemes.cs" t="Include" />
+            </e>
+          </e>
+          <e p="educationPortal.Application.csproj" t="IncludeRecursive" />
+          <e p="educationPortalApplicationModule.cs" t="Include" />
+          <e p="educationPortalAppServiceBase.cs" t="Include" />
+          <e p="MultiTenancy" t="Include">
+            <e p="Dto" t="Include">
+              <e p="CreateTenantDto.cs" t="Include" />
+              <e p="PagedTenantResultRequestDto.cs" t="Include" />
+              <e p="TenantDto.cs" t="Include" />
+            </e>
+            <e p="ITenantAppService.cs" t="Include" />
+            <e p="TenantAppService.cs" t="Include" />
+          </e>
+          <e p="Net" t="Include">
+            <e p="MimeTypes" t="Include">
+              <e p="MimeTypeNames.cs" t="Include" />
+            </e>
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="educationPortal.Application.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Roles" t="Include">
+            <e p="Dto" t="Include">
+              <e p="CreateRoleDto.cs" t="Include" />
+              <e p="FlatPermissionDto.cs" t="Include" />
+              <e p="GetRoleForEditOutput.cs" t="Include" />
+              <e p="GetRolesInput.cs" t="Include" />
+              <e p="PagedRoleResultRequestDto.cs" t="Include" />
+              <e p="PermissionDto.cs" t="Include" />
+              <e p="RoleDto.cs" t="Include" />
+              <e p="RoleEditDto.cs" t="Include" />
+              <e p="RoleListDto.cs" t="Include" />
+              <e p="RoleMapProfile.cs" t="Include" />
+            </e>
+            <e p="IRoleAppService.cs" t="Include" />
+            <e p="RoleAppService.cs" t="Include" />
+          </e>
+          <e p="Sessions" t="Include">
+            <e p="Dto" t="Include">
+              <e p="ApplicationInfoDto.cs" t="Include" />
+              <e p="GetCurrentLoginInformationsOutput.cs" t="Include" />
+              <e p="TenantLoginInfoDto.cs" t="Include" />
+              <e p="UserLoginInfoDto.cs" t="Include" />
+            </e>
+            <e p="ISessionAppService.cs" t="Include" />
+            <e p="SessionAppService.cs" t="Include" />
+          </e>
+          <e p="Users" t="Include">
+            <e p="Dto" t="Include">
+              <e p="ChangePasswordDto.cs" t="Include" />
+              <e p="ChangeUserLanguageDto.cs" t="Include" />
+              <e p="CreateUserDto.cs" t="Include" />
+              <e p="PagedUserResultRequestDto.cs" t="Include" />
+              <e p="ResetPasswordDto.cs" t="Include" />
+              <e p="UserDto.cs" t="Include" />
+              <e p="UserMapProfile.cs" t="Include" />
+            </e>
+            <e p="IUserAppService.cs" t="Include" />
+            <e p="UserAppService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="educationPortal.Core" t="IncludeRecursive">
+          <e p="AppVersionHelper.cs" t="Include" />
+          <e p="Authorization" t="Include">
+            <e p="educationPortalAuthorizationProvider.cs" t="Include" />
+            <e p="LoginManager.cs" t="Include" />
+            <e p="PermissionChecker.cs" t="Include" />
+            <e p="PermissionNames.cs" t="Include" />
+            <e p="Roles" t="Include">
+              <e p="AppRoleConfig.cs" t="Include" />
+              <e p="Role.cs" t="Include" />
+              <e p="RoleManager.cs" t="Include" />
+              <e p="RoleStore.cs" t="Include" />
+              <e p="StaticRoleNames.cs" t="Include" />
+            </e>
+            <e p="Users" t="Include">
+              <e p="User.cs" t="Include" />
+              <e p="UserClaimsPrincipalFactory.cs" t="Include" />
+              <e p="UserManager.cs" t="Include" />
+              <e p="UserRegistrationManager.cs" t="Include" />
+              <e p="UserStore.cs" t="Include" />
+            </e>
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Configuration" t="Include">
+            <e p="AppConfigurations.cs" t="Include" />
+            <e p="AppSettingNames.cs" t="Include" />
+            <e p="AppSettingProvider.cs" t="Include" />
+          </e>
+          <e p="Editions" t="Include">
+            <e p="EditionManager.cs" t="Include" />
+          </e>
+          <e p="educationPortal.Core.csproj" t="IncludeRecursive" />
+          <e p="educationPortalConsts.cs" t="Include" />
+          <e p="educationPortalCoreModule.cs" t="Include" />
+          <e p="Features" t="Include">
+            <e p="FeatureValueStore.cs" t="Include" />
+          </e>
+          <e p="Identity" t="Include">
+            <e p="IdentityRegistrar.cs" t="Include" />
+            <e p="SecurityStampValidator.cs" t="Include" />
+            <e p="SignInManager.cs" t="Include" />
+          </e>
+          <e p="Localization" t="Include">
+            <e p="educationPortalLocalizationConfigurer.cs" t="Include" />
+            <e p="SourceFiles" t="Include">
+              <e p="educationPortal-es.xml" t="Include" />
+              <e p="educationPortal-fr.xml" t="Include" />
+              <e p="educationPortal-it.xml" t="Include" />
+              <e p="educationPortal-ja.xml" t="Include" />
+              <e p="educationPortal-lt.xml" t="Include" />
+              <e p="educationPortal-nl.xml" t="Include" />
+              <e p="educationPortal-pt-BR.xml" t="Include" />
+              <e p="educationPortal-tr.xml" t="Include" />
+              <e p="educationPortal-zh-Hans.xml" t="Include" />
+              <e p="educationPortal.xml" t="Include" />
+            </e>
+          </e>
+          <e p="MultiTenancy" t="Include">
+            <e p="Tenant.cs" t="Include" />
+            <e p="TenantManager.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="educationPortal.Core.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Timing" t="Include">
+            <e p="AppTimes.cs" t="Include" />
+          </e>
+          <e p="Validation" t="Include">
+            <e p="ValidationHelper.cs" t="Include" />
+          </e>
+          <e p="Web" t="Include">
+            <e p="WebContentFolderHelper.cs" t="Include" />
+          </e>
+        </e>
+        <e p="educationPortal.EntityFrameworkCore" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="educationPortal.EntityFrameworkCore.csproj" t="IncludeRecursive" />
+          <e p="EntityFrameworkCore" t="Include">
+            <e p="AbpZeroDbMigrator.cs" t="Include" />
+            <e p="educationPortalDbContext.cs" t="Include" />
+            <e p="educationPortalDbContextConfigurer.cs" t="Include" />
+            <e p="educationPortalDbContextFactory.cs" t="Include" />
+            <e p="educationPortalEntityFrameworkModule.cs" t="Include" />
+            <e p="Repositories" t="Include">
+              <e p="educationPortalRepositoryBase.cs" t="Include" />
+            </e>
+            <e p="Seed" t="Include">
+              <e p="Host" t="Include">
+                <e p="DefaultEditionCreator.cs" t="Include" />
+                <e p="DefaultLanguagesCreator.cs" t="Include" />
+                <e p="DefaultSettingsCreator.cs" t="Include" />
+                <e p="HostRoleAndUserCreator.cs" t="Include" />
+                <e p="InitialHostDbBuilder.cs" t="Include" />
+              </e>
+              <e p="SeedHelper.cs" t="Include" />
+              <e p="Tenants" t="Include">
+                <e p="DefaultTenantBuilder.cs" t="Include" />
+                <e p="TenantRoleAndUserBuilder.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Migrations" t="Include">
+            <e p="20170424115119_Initial_Migrations.cs" t="Include" />
+            <e p="20170424115119_Initial_Migrations.Designer.cs" t="Include" />
+            <e p="20170608053244_Upgraded_To_Abp_2_1_0.cs" t="Include" />
+            <e p="20170608053244_Upgraded_To_Abp_2_1_0.Designer.cs" t="Include" />
+            <e p="20170621153937_Added_Description_And_IsActive_To_Role.cs" t="Include" />
+            <e p="20170621153937_Added_Description_And_IsActive_To_Role.Designer.cs" t="Include" />
+            <e p="20170703134115_Remove_IsActive_From_Role.cs" t="Include" />
+            <e p="20170703134115_Remove_IsActive_From_Role.Designer.cs" t="Include" />
+            <e p="20170804083601_Upgraded_To_Abp_v2.2.2.cs" t="Include" />
+            <e p="20170804083601_Upgraded_To_Abp_v2.2.2.Designer.cs" t="Include" />
+            <e p="20180201051646_Upgraded_To_Abp_v3.4.0.cs" t="Include" />
+            <e p="20180201051646_Upgraded_To_Abp_v3.4.0.Designer.cs" t="Include" />
+            <e p="20180320131229_Upgraded_To_Abp_v3_5_0.cs" t="Include" />
+            <e p="20180320131229_Upgraded_To_Abp_v3_5_0.Designer.cs" t="Include" />
+            <e p="20180509121141_Upgraded_To_Abp_v3_6_1.cs" t="Include" />
+            <e p="20180509121141_Upgraded_To_Abp_v3_6_1.Designer.cs" t="Include" />
+            <e p="20180726102703_Upgrade_ABP_3.8.0.cs" t="Include" />
+            <e p="20180726102703_Upgrade_ABP_3.8.0.Designer.cs" t="Include" />
+            <e p="20180731132139_Upgrade_ABP_3.8.1.cs" t="Include" />
+            <e p="20180731132139_Upgrade_ABP_3.8.1.Designer.cs" t="Include" />
+            <e p="20180927062608_Upgrade_ABP_3.8.3.cs" t="Include" />
+            <e p="20180927062608_Upgrade_ABP_3.8.3.Designer.cs" t="Include" />
+            <e p="20181013103914_Upgraded_To_Abp_v3_9_0.cs" t="Include" />
+            <e p="20181013103914_Upgraded_To_Abp_v3_9_0.Designer.cs" t="Include" />
+            <e p="20190208051931_Upgrade_ABP_4_2_0.cs" t="Include" />
+            <e p="20190208051931_Upgrade_ABP_4_2_0.Designer.cs" t="Include" />
+            <e p="educationPortalDbContextModelSnapshot.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="educationPortal.EntityFrameworkCore.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="educationPortal.Migrator" t="IncludeRecursive">
+          <e p="appsettings.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="DependencyInjection" t="Include">
+            <e p="ServiceCollectionRegistrar.cs" t="Include" />
+          </e>
+          <e p="educationPortal.Migrator.csproj" t="IncludeRecursive" />
+          <e p="educationPortalMigratorModule.cs" t="Include" />
+          <e p="Log.cs" t="Include" />
+          <e p="log4net.config" t="Include" />
+          <e p="MultiTenantMigrateExecuter.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="educationPortal.Migrator.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+        <e p="educationPortal.Web.Core" t="IncludeRecursive">
+          <e p="Authentication" t="Include">
+            <e p="External" t="Include">
+              <e p="ExternalAuthConfiguration.cs" t="Include" />
+              <e p="ExternalAuthManager.cs" t="Include" />
+              <e p="ExternalAuthProviderApiBase.cs" t="Include" />
+              <e p="ExternalAuthUserInfo.cs" t="Include" />
+              <e p="ExternalLoginProviderInfo.cs" t="Include" />
+              <e p="IExternalAuthConfiguration.cs" t="Include" />
+              <e p="IExternalAuthManager.cs" t="Include" />
+              <e p="IExternalAuthProviderApi.cs" t="Include" />
+            </e>
+            <e p="JwtBearer" t="Include">
+              <e p="JwtTokenMiddleware.cs" t="Include" />
+              <e p="TokenAuthConfiguration.cs" t="Include" />
+            </e>
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Configuration" t="Include">
+            <e p="HostingEnvironmentExtensions.cs" t="Include" />
+          </e>
+          <e p="Controllers" t="Include">
+            <e p="educationPortalControllerBase.cs" t="Include" />
+            <e p="TokenAuthController.cs" t="Include" />
+          </e>
+          <e p="educationPortal.Web.Core.csproj" t="IncludeRecursive" />
+          <e p="educationPortalWebCoreModule.cs" t="Include" />
+          <e p="Identity" t="Include">
+            <e p="ExternalLoginInfoHelper.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="TokenAuth" t="Include">
+              <e p="AuthenticateModel.cs" t="Include" />
+              <e p="AuthenticateResultModel.cs" t="Include" />
+              <e p="ExternalAuthenticateModel.cs" t="Include" />
+              <e p="ExternalAuthenticateResultModel.cs" t="Include" />
+              <e p="ExternalLoginProviderInfoModel.cs" t="Include" />
+            </e>
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="educationPortal.Web.Core.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+        <e p="educationPortal.Web.Host" t="IncludeRecursive">
+          <e p="app.config" t="Include" />
+          <e p="App_Data" t="Include">
+            <e p="Logs" t="Include">
+              <e p="Logs.txt" t="Include" />
+            </e>
+          </e>
+          <e p="appsettings.json" t="Include" />
+          <e p="appsettings.Staging.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Controllers" t="Include">
+            <e p="AntiForgeryController.cs" t="Include" />
+            <e p="HomeController.cs" t="Include" />
+          </e>
+          <e p="Dockerfile" t="Include" />
+          <e p="educationPortal.Web.Host.csproj" t="IncludeRecursive" />
+          <e p="log4net.config" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="educationPortal.Web.Host.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+          <e p="Startup" t="Include">
+            <e p="AuthConfigurer.cs" t="Include" />
+            <e p="educationPortalWebHostModule.cs" t="Include" />
+            <e p="Program.cs" t="Include" />
+            <e p="Startup.cs" t="Include" />
+          </e>
+          <e p="web.config" t="Include" />
+          <e p="wwwroot" t="Include">
+            <e p="swagger" t="Include">
+              <e p="Ui" t="Include">
+                <e p="abp.js" t="Include" />
+                <e p="abp.swagger.js" t="Include" />
+                <e p="index.html" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_educationPortal.138764813.00" t="ExcludeRecursive" />
+  </component>
+</project>
