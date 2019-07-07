@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using educationPortal.EntityFrameworkCore;
 
 namespace educationPortal.Migrations
 {
     [DbContext(typeof(educationPortalDbContext))]
-    partial class educationPortalDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190707124914_addedquestion")]
+    partial class addedquestion
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1033,67 +1035,11 @@ namespace educationPortal.Migrations
                     b.ToTable("AbpUsers");
                 });
 
-            modelBuilder.Entity("educationPortal.Categories.Category", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Description");
-
-                    b.Property<string>("DisplayName");
-
-                    b.Property<int?>("ParentCategoryId");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ParentCategoryId");
-
-                    b.ToTable("Category");
-                });
-
-            modelBuilder.Entity("educationPortal.Comments.Comment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Content");
-
-                    b.Property<DateTime>("CreationTime");
-
-                    b.Property<long?>("CreatorUserId");
-
-                    b.Property<long?>("DeleterUserId");
-
-                    b.Property<DateTime?>("DeletionTime");
-
-                    b.Property<long>("EntityId");
-
-                    b.Property<string>("EntityName");
-
-                    b.Property<bool>("IsDeleted");
-
-                    b.Property<DateTime?>("LastModificationTime");
-
-                    b.Property<long?>("LastModifierUserId");
-
-                    b.Property<double>("Rate");
-
-                    b.Property<double>("RateCount");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Comments");
-                });
-
             modelBuilder.Entity("educationPortal.Courses.Course", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("CategoryId");
 
                     b.Property<DateTime>("CreationTime");
 
@@ -1125,20 +1071,18 @@ namespace educationPortal.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CategoryId");
-
-                    b.HasIndex("TenantId");
-
                     b.ToTable("Courses");
                 });
 
-            modelBuilder.Entity("educationPortal.Courses.CourseAdvertisement", b =>
+            modelBuilder.Entity("educationPortal.Courses.CourseComment", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Content");
+                    b.Property<string>("Comment");
+
+                    b.Property<int>("CourseId");
 
                     b.Property<DateTime>("CreationTime");
 
@@ -1148,19 +1092,15 @@ namespace educationPortal.Migrations
 
                     b.Property<DateTime?>("DeletionTime");
 
-                    b.Property<double>("ExpectedPrice");
-
                     b.Property<bool>("IsDeleted");
 
                     b.Property<DateTime?>("LastModificationTime");
 
                     b.Property<long?>("LastModifierUserId");
 
-                    b.Property<string>("Title");
-
                     b.HasKey("Id");
 
-                    b.ToTable("CourseAdvertisements");
+                    b.ToTable("CourseComments");
                 });
 
             modelBuilder.Entity("educationPortal.Courses.CourseContent", b =>
@@ -1524,26 +1464,6 @@ namespace educationPortal.Migrations
                         .HasForeignKey("LastModifierUserId");
                 });
 
-            modelBuilder.Entity("educationPortal.Categories.Category", b =>
-                {
-                    b.HasOne("educationPortal.Categories.Category", "ParentCategory")
-                        .WithMany()
-                        .HasForeignKey("ParentCategoryId");
-                });
-
-            modelBuilder.Entity("educationPortal.Courses.Course", b =>
-                {
-                    b.HasOne("educationPortal.Categories.Category", "Category")
-                        .WithMany()
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("educationPortal.MultiTenancy.Tenant", "Tenant")
-                        .WithMany()
-                        .HasForeignKey("TenantId")
-                        .OnDelete(DeleteBehavior.Cascade);
-                });
-
             modelBuilder.Entity("educationPortal.Courses.FavoriteCourse", b =>
                 {
                     b.HasOne("educationPortal.Courses.Course", "Course")
@@ -1560,7 +1480,7 @@ namespace educationPortal.Migrations
             modelBuilder.Entity("educationPortal.Courses.GivenCourse", b =>
                 {
                     b.HasOne("educationPortal.Courses.Course", "Course")
-                        .WithMany("GivingCourses")
+                        .WithMany()
                         .HasForeignKey("CourseId")
                         .OnDelete(DeleteBehavior.Cascade);
 
@@ -1600,7 +1520,7 @@ namespace educationPortal.Migrations
             modelBuilder.Entity("educationPortal.Tickets.QuestionResponse", b =>
                 {
                     b.HasOne("educationPortal.Tickets.Question", "Question")
-                        .WithMany("Responses")
+                        .WithMany()
                         .HasForeignKey("QuestionId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
