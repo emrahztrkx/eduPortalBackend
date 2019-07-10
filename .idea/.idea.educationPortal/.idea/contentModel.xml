@@ -123,10 +123,25 @@
             </e>
           </e>
           <e p="bin" t="ExcludeRecursive" />
+          <e p="Categories" t="Include">
+            <e p="Category.cs" t="Include" />
+          </e>
+          <e p="Comments" t="Include">
+            <e p="Comment.cs" t="Include" />
+          </e>
           <e p="Configuration" t="Include">
             <e p="AppConfigurations.cs" t="Include" />
             <e p="AppSettingNames.cs" t="Include" />
             <e p="AppSettingProvider.cs" t="Include" />
+          </e>
+          <e p="Courses" t="Include">
+            <e p="ContentType.cs" t="Include" />
+            <e p="Course.cs" t="Include" />
+            <e p="CourseAdvertisement.cs" t="Include" />
+            <e p="CourseAdvertisementReply.cs" t="Include" />
+            <e p="CourseContent.cs" t="Include" />
+            <e p="FavoriteCourse.cs" t="Include" />
+            <e p="GivenCourse.cs" t="Include" />
           </e>
           <e p="Editions" t="Include">
             <e p="EditionManager.cs" t="Include" />
@@ -170,6 +185,11 @@
           </e>
           <e p="Properties" t="Include">
             <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Questions" t="Include">
+            <e p="Question.cs" t="Include" />
+            <e p="QuestionResponse.cs" t="Include" />
+            <e p="QuestionType.cs" t="Include" />
           </e>
           <e p="Timing" t="Include">
             <e p="AppTimes.cs" t="Include" />
@@ -235,6 +255,14 @@
             <e p="20181013103914_Upgraded_To_Abp_v3_9_0.Designer.cs" t="Include" />
             <e p="20190208051931_Upgrade_ABP_4_2_0.cs" t="Include" />
             <e p="20190208051931_Upgrade_ABP_4_2_0.Designer.cs" t="Include" />
+            <e p="20190707122749_addedcourse.cs" t="Include" />
+            <e p="20190707122749_addedcourse.Designer.cs" t="Include" />
+            <e p="20190707124914_addedquestion.cs" t="Include" />
+            <e p="20190707124914_addedquestion.Designer.cs" t="Include" />
+            <e p="20190707125245_addedquestionResponses.cs" t="Include" />
+            <e p="20190707125245_addedquestionResponses.Designer.cs" t="Include" />
+            <e p="20190707144724_addedcommentv2.cs" t="Include" />
+            <e p="20190707144724_addedcommentv2.Designer.cs" t="Include" />
             <e p="educationPortalDbContextModelSnapshot.cs" t="Include" />
           </e>
           <e p="obj" t="ExcludeRecursive">

@@ -1,6 +1,6 @@
 using Abp.Domain.Entities.Auditing;
 
-namespace educationPortal.Configuration
+namespace educationPortal.Comments
 {
     public class Comment : FullAuditedEntity
     {
@@ -10,7 +10,7 @@ namespace educationPortal.Configuration
 
         public long EntityId { get; set; }
         
-        public string Comment { get; set; }
+        public string Content { get; set; }
         
         
         // oylama icin kullanilir. 5 uzerinden. B
@@ -19,8 +19,6 @@ namespace educationPortal.Configuration
         
         // kac kisinin buraya oy verdigini yazar. Ilk comment yapilirken 1 ile baslar kendisi oy verir.
         public double RateCount { get; set; }
-        
-        
         
     }
 }

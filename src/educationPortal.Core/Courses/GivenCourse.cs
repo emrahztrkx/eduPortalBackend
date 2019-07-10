@@ -9,7 +9,7 @@ namespace educationPortal.Courses
         
         public int CourseId { get; set; }
         
-        public int EducatorId { get; set; }
+        public long EducatorId { get; set; }
         
         
         [ForeignKey(nameof(CourseId))]

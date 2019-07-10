@@ -13,5 +13,9 @@ namespace educationPortal.MultiTenancy
             : base(tenancyName, name)
         {
         }
+        
+        
+        
+        
     }
 }
