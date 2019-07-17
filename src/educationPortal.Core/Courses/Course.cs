@@ -20,11 +20,16 @@ namespace educationPortal.Courses
         public int TenantId { get; set; }
         public int CategoryId { get; set; }
 
+        public int CourseContentId { get; set; }
+
         [ForeignKey(nameof(TenantId))]
         public virtual Tenant Tenant { get; set; }
         
         [ForeignKey(nameof(CategoryId))]
         public virtual Category Category { get; set; }
+        
+        [ForeignKey(nameof(CourseContentId))]
+        public virtual CourseContent CourseContent { get; set; }
         
         
         private ICollection<GivenCourse> _givingCourses;

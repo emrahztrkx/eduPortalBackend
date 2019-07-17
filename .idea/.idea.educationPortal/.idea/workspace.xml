@@ -5,48 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b77016c4-37ab-4a3b-b953-d594de03c6a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.educationPortal/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.educationPortal/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.educationPortal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.educationPortal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/bin/Debug/netcoreapp2.2/educationPortal.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/bin/Debug/netcoreapp2.2/educationPortal.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/Categories/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/Categories/Category.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/Comments/Comment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/Comments/Comment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/Courses/ContentType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/Courses/ContentType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/educationPortal.Application/Course/CourseAppService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/educationPortal.Application/Course/Dto/CourseDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/educationPortal.Application/Course/Dto/CreateCourseInputDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/educationPortal.Application/Course/Dto/UpdateCourseInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/educationPortal.Application/Course/ICourseAppService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/obj/Debug/netcoreapp2.2/educationPortal.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/obj/educationPortal.Application.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/obj/educationPortal.Application.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/obj/educationPortal.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/obj/educationPortal.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/obj/educationPortal.Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/obj/educationPortal.Application.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Application/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/Courses/Course.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/Courses/Course.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseAdvertisement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseAdvertisement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseAdvertisementReply.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseAdvertisementReply.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseContent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseContent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/Courses/FavoriteCourse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/Courses/FavoriteCourse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/Courses/GivenCourse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/Courses/GivenCourse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/MultiTenancy/Tenant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/MultiTenancy/Tenant.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/Questions/Question.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/Questions/Question.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/Questions/QuestionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/Questions/QuestionResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/Questions/QuestionType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/Questions/QuestionType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/educationPortal.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/educationPortal.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/educationPortal.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/educationPortal.Core.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/Debug/netcoreapp2.2/educationPortal.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/educationPortal.Core.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/educationPortal.Core.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/educationPortal.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/educationPortal.Core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/educationPortal.Core.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/educationPortal.Core.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/Migrations/educationPortalDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/Migrations/educationPortalDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/educationPortal.EntityFrameworkCore.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/educationPortal.EntityFrameworkCore.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/educationPortal.EntityFrameworkCore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/educationPortal.EntityFrameworkCore.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/educationPortal.EntityFrameworkCore.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/educationPortal.EntityFrameworkCore.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/Debug/netcoreapp2.2/educationPortal.Migrator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/Debug/netcoreapp2.2/educationPortal.Migrator.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/App_Data/Logs/Logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/App_Data/Logs/Logs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/bin/Debug/netcoreapp2.2/educationPortal.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/bin/Debug/netcoreapp2.2/educationPortal.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/bin/Debug/netcoreapp2.2/educationPortal.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/bin/Debug/netcoreapp2.2/educationPortal.EntityFrameworkCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/Debug/netcoreapp2.2/educationPortal.Web.Host.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/Debug/netcoreapp2.2/educationPortal.Web.Host.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/Debug/netcoreapp2.2/educationPortal.Migrator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/Debug/netcoreapp2.2/educationPortal.Migrator.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/educationPortal.Migrator.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/educationPortal.Migrator.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/educationPortal.Migrator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/educationPortal.Migrator.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/educationPortal.Migrator.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/educationPortal.Migrator.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Migrator/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/Debug/netcoreapp2.2/educationPortal.Web.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/educationPortal.Web.Core.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/educationPortal.Web.Core.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/educationPortal.Web.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/educationPortal.Web.Core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/educationPortal.Web.Core.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/educationPortal.Web.Core.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/Debug/netcoreapp2.2/educationPortal.Web.Host.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/Debug/netcoreapp2.2/educationPortal.Web.Host.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/educationPortal.Web.Host.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/educationPortal.Web.Host.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/educationPortal.Web.Host.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/educationPortal.Web.Host.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/educationPortal.Web.Host.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/educationPortal.Web.Host.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/educationPortal.Web.Host/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,61 +57,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/EntityFrameworkCore/educationPortalDbContext.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/educationPortal.Application/Course/CourseAppService.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
-              <folding>
-                <marker date="1562509890242" expanded="true" signature="6:288" ph="..." />
-                <marker date="1562509890242" expanded="true" signature="335:1361" ph="{...}" />
-                <marker date="1562509890242" expanded="true" signature="444:1359" ph="{...}" />
-                <marker date="1562509890242" expanded="true" signature="643:663" ph="{...}" />
-                <marker date="1562509890242" expanded="true" signature="673:762" ph="Comment" />
-                <marker date="1562509890242" expanded="true" signature="797:1171" ph="Course" />
-                <marker date="1562509890242" expanded="true" signature="1181:1344" ph="Question" />
-              </folding>
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/educationPortal.Core/Comments/Comment.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/educationPortal.Application/obj/project.packagespec.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <marker date="1562510814728" expanded="true" signature="71:686" ph="{...}" />
-                <marker date="1562510814728" expanded="true" signature="118:684" ph="{...}" />
-                <marker date="1562510814728" expanded="true" signature="331:469" ph="/* oylama icin kullanilir. 5 uzerinden. B ... */" />
-              </folding>
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseAdvertisement.cs">
+        <entry file="file://$PROJECT_DIR$/src/educationPortal.Application/Course/ICourseAppService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <marker date="1562509387035" expanded="true" signature="70:330" ph="{...}" />
-                <marker date="1562509387035" expanded="true" signature="130:328" ph="{...}" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseAdvertisementReply.cs">
+        <entry file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/Course.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <marker date="1562510328104" expanded="true" signature="6:150" ph="..." />
-                <marker date="1562510328104" expanded="true" signature="185:593" ph="{...}" />
-                <marker date="1562510328104" expanded="true" signature="266:591" ph="{...}" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseContent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/educationPortal.Application/Course/Dto/CreateCourseInputDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/ContentType.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -121,20 +126,40 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Questions/QuestionResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/GivenCourse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Questions/QuestionType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/Course.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/MultiTenancy/Tenant.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Questions/Question.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseAdvertisementReply.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Categories/Category.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseAdvertisement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Comments/Comment.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/EntityFrameworkCore/educationPortalDbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/FavoriteCourse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/ContentType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Web.Host/app.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/Sessions/SessionAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/Roles/RoleAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/Course/Dto/UpdateCourseInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B3A1BEA3-2FFB-43AF-A5C8-A563D66A4356/2c/9f689614/SqlConnection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5638A61A-9CDE-4878-B0E2-14B4E0FB5B88/18B/AsyncCrudAppService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/GivenCourse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Authorization/Users/UserManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseContent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57139BFC-E1DA-4913-8884-2BBBF31D74D3/36/00638346/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/MultiTenancy/TenantAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5638A61A-9CDE-4878-B0E2-14B4E0FB5B88/138/FullAuditedEntity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/MultiTenancy/ITenantAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/Course.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/FavoriteCourse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/Course/Dto/CreateCourseInputDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8D29DE27-C6CC-4E65-9BB3-27BD3D09582E/10/AbpUserManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseAdvertisement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/ContentType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/Course/Dto/CourseDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Categories/Category.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Questions/QuestionType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.EntityFrameworkCore/EntityFrameworkCore/educationPortalDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/Course/CourseAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/Course/ICourseAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Questions/Question.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/Users/UserAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/Authorization/Accounts/AccountAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Questions/QuestionResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/Comments/Comment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/Users/IUserAppService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Application/Users/Dto/UserDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/educationPortal.Core/MultiTenancy/Tenant.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -174,10 +199,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="educationPortal" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -249,7 +283,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9146000" />
+    <option name="totallyTimeSpent" value="9376000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -261,9 +295,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09121395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -276,11 +310,11 @@
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32831737" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="REST Client" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.32831737" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="16" weight="0.32916668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -303,18 +337,27 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/educationPortal.Application/Course/CourseAppService.cs</url>
+          <line>25</line>
+          <properties documentPath="$PROJECT_DIR$/src/educationPortal.Application/Course/CourseAppService.cs" initialLine="25">
+            <startOffsets>
+              <option value="805" />
+            </startOffsets>
+            <endOffsets>
+              <option value="806" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/ContentType.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <marker date="1562499480891" expanded="true" signature="33:151" ph="{...}" />
-            <marker date="1562499480891" expanded="true" signature="63:149" ph="{...}" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -334,12 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/CourseContent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <marker date="1562499492511" expanded="true" signature="70:315" ph="{...}" />
-            <marker date="1562499492511" expanded="true" signature="123:313" ph="{...}" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -406,14 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/educationPortal.Core/Courses/Course.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <marker date="1562509822468" expanded="true" signature="6:270" ph="..." />
-            <marker date="1562509822468" expanded="true" signature="305:1236" ph="{...}" />
-            <marker date="1562509822468" expanded="true" signature="369:1234" ph="{...}" />
-            <marker date="1562509822468" expanded="true" signature="1059:1228" ph="{...}" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
         </state>
       </provider>
     </entry>
