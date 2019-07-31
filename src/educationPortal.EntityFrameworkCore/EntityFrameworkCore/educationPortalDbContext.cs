@@ -2,6 +2,7 @@
 using Abp.Zero.EntityFrameworkCore;
 using educationPortal.Authorization.Roles;
 using educationPortal.Authorization.Users;
+using educationPortal.Categories;
 using educationPortal.Comments;
 using educationPortal.Courses;
 using educationPortal.MultiTenancy;
@@ -21,6 +22,12 @@ namespace educationPortal.EntityFrameworkCore
         #region Comment
 
         public DbSet<Comment> Comments { get; set; }
+
+        #endregion
+        
+        #region Comment
+
+        public DbSet<Category> Categories { get; set; }
 
         #endregion
             

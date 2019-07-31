@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\Users\Enes\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Enes\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_educationPortal.-1929513493.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Enes\Desktop\repos\eduPortalBackend" t="IncludeFlat">
       <e p="educationPortal.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="src" t="Include">
@@ -32,6 +34,16 @@
               <e p="UiThemeInfo.cs" t="Include" />
               <e p="UiThemes.cs" t="Include" />
             </e>
+          </e>
+          <e p="Course" t="Include">
+            <e p="CourseAppService.cs" t="Include" />
+            <e p="Dto" t="Include">
+              <e p="CourseDto.cs" t="Include" />
+              <e p="CreateCourseInputDto.cs" t="Include" />
+              <e p="GetCategoryOutput.cs" t="Include" />
+              <e p="UpdateCourseInput.cs" t="Include" />
+            </e>
+            <e p="ICourseAppService.cs" t="Include" />
           </e>
           <e p="educationPortal.Application.csproj" t="IncludeRecursive" />
           <e p="educationPortalApplicationModule.cs" t="Include" />
@@ -263,6 +275,10 @@
             <e p="20190707125245_addedquestionResponses.Designer.cs" t="Include" />
             <e p="20190707144724_addedcommentv2.cs" t="Include" />
             <e p="20190707144724_addedcommentv2.Designer.cs" t="Include" />
+            <e p="20190716195900_CourseContentIdToCourses.cs" t="Include" />
+            <e p="20190716195900_CourseContentIdToCourses.Designer.cs" t="Include" />
+            <e p="20190730194833_categories-addded.cs" t="Include" />
+            <e p="20190730194833_categories-addded.Designer.cs" t="Include" />
             <e p="educationPortalDbContextModelSnapshot.cs" t="Include" />
           </e>
           <e p="obj" t="ExcludeRecursive">
@@ -392,7 +408,5 @@
         </e>
       </e>
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_educationPortal.138764813.00" t="ExcludeRecursive" />
   </component>
 </project>

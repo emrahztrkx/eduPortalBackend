@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Enes Şahin\\Desktop\\eduPortalBackend\\src\\educationPortal.Web.Core\\educationPortal.Web.Core.csproj",
+    "projectUniqueName": "C:\\Users\\Enes\\Desktop\\repos\\eduPortalBackend\\src\\educationPortal.Web.Core\\educationPortal.Web.Core.csproj",
     "projectName": "educationPortal.Web.Core",
-    "projectPath": "C:\\Users\\Enes Şahin\\Desktop\\eduPortalBackend\\src\\educationPortal.Web.Core\\educationPortal.Web.Core.csproj",
-    "outputPath": "C:\\Users\\Enes Şahin\\Desktop\\eduPortalBackend\\src\\educationPortal.Web.Core\\obj\\",
+    "projectPath": "C:\\Users\\Enes\\Desktop\\repos\\eduPortalBackend\\src\\educationPortal.Web.Core\\educationPortal.Web.Core.csproj",
+    "outputPath": "C:\\Users\\Enes\\Desktop\\repos\\eduPortalBackend\\src\\educationPortal.Web.Core\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13,16 +13,17 @@
       "netcoreapp2.2"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "C:\\Users\\Enes Şahin\\Desktop\\eduPortalBackend\\src\\educationPortal.Application\\educationPortal.Application.csproj": {
-            "projectPath": "C:\\Users\\Enes Şahin\\Desktop\\eduPortalBackend\\src\\educationPortal.Application\\educationPortal.Application.csproj"
+          "C:\\Users\\Enes\\Desktop\\repos\\eduPortalBackend\\src\\educationPortal.Application\\educationPortal.Application.csproj": {
+            "projectPath": "C:\\Users\\Enes\\Desktop\\repos\\eduPortalBackend\\src\\educationPortal.Application\\educationPortal.Application.csproj"
           },
-          "C:\\Users\\Enes Şahin\\Desktop\\eduPortalBackend\\src\\educationPortal.EntityFrameworkCore\\educationPortal.EntityFrameworkCore.csproj": {
-            "projectPath": "C:\\Users\\Enes Şahin\\Desktop\\eduPortalBackend\\src\\educationPortal.EntityFrameworkCore\\educationPortal.EntityFrameworkCore.csproj"
+          "C:\\Users\\Enes\\Desktop\\repos\\eduPortalBackend\\src\\educationPortal.EntityFrameworkCore\\educationPortal.EntityFrameworkCore.csproj": {
+            "projectPath": "C:\\Users\\Enes\\Desktop\\repos\\eduPortalBackend\\src\\educationPortal.EntityFrameworkCore\\educationPortal.EntityFrameworkCore.csproj"
           }
         }
       }

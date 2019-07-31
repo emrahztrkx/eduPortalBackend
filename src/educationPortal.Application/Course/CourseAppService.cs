@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Abp.Application.Services.Dto;
 using Abp.Domain.Repositories;
 using Abp.UI;
+using educationPortal.Categories;
 using educationPortal.Courses.Dto;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,19 +15,24 @@ namespace educationPortal.Courses
         private readonly IRepository<Course> _courseRepository;
         private readonly IRepository<GivenCourse> _givenCourseRepository;
         private readonly IRepository<CourseContent> _courseContentRepository;
+        private readonly IRepository<Categories.Category> _categoryRepository;
+
 
 
 
         public CourseAppService(
             IRepository<Course> courseRepository,
             IRepository<GivenCourse> givenCourseRepository,
-            IRepository<CourseContent> courseContentRepository
+            IRepository<CourseContent> courseContentRepository,  
+            IRepository<Categories.Category> categoryRepository
+
         )
 
         {
             _courseRepository = courseRepository;
             _givenCourseRepository = givenCourseRepository;
             _courseContentRepository = courseContentRepository;
+            _categoryRepository = categoryRepository;
         }
 
         public async Task<CourseDto> Create(CreateCourseInputDto input)
@@ -74,6 +80,19 @@ namespace educationPortal.Courses
             return allCourses;
         }
         
+        public async Task<List<GetCategoryOutput>> GetAllCategories()
+        {
+            var categories = await _categoryRepository.GetAll().Select(x => new GetCategoryOutput
+            {
+                Id = x.Id,
+                DisplayName = x.DisplayName,
+                Description = x.Description,
+                ParentCategoryId = x.ParentCategoryId
+            }).ToListAsync();
+
+            return categories;
+        }
+        
 
         public async Task Update(UpdateCourseInput input)
         {
@@ -100,5 +119,8 @@ namespace educationPortal.Courses
             await _courseRepository.DeleteAsync(course);
             
         }
+
+      
+        
     }
 }

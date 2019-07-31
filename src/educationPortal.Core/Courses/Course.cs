@@ -26,7 +26,7 @@ namespace educationPortal.Courses
         public virtual Tenant Tenant { get; set; }
         
         [ForeignKey(nameof(CategoryId))]
-        public virtual Category Category { get; set; }
+        public virtual Category Category { get; set; }        
         
         [ForeignKey(nameof(CourseContentId))]
         public virtual CourseContent CourseContent { get; set; }

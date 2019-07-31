@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Enes Şahin\\Desktop\\eduPortalBackend\\src\\educationPortal.Application\\educationPortal.Application.csproj",
+    "projectUniqueName": "C:\\Users\\Enes\\Desktop\\repos\\eduPortalBackend\\src\\educationPortal.Application\\educationPortal.Application.csproj",
     "projectName": "educationPortal.Application",
-    "projectPath": "C:\\Users\\Enes Şahin\\Desktop\\eduPortalBackend\\src\\educationPortal.Application\\educationPortal.Application.csproj",
-    "outputPath": "C:\\Users\\Enes Şahin\\Desktop\\eduPortalBackend\\src\\educationPortal.Application\\obj\\",
+    "projectPath": "C:\\Users\\Enes\\Desktop\\repos\\eduPortalBackend\\src\\educationPortal.Application\\educationPortal.Application.csproj",
+    "outputPath": "C:\\Users\\Enes\\Desktop\\repos\\eduPortalBackend\\src\\educationPortal.Application\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13,13 +13,14 @@
       "netcoreapp2.2"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "C:\\Users\\Enes Şahin\\Desktop\\eduPortalBackend\\src\\educationPortal.Core\\educationPortal.Core.csproj": {
-            "projectPath": "C:\\Users\\Enes Şahin\\Desktop\\eduPortalBackend\\src\\educationPortal.Core\\educationPortal.Core.csproj"
+          "C:\\Users\\Enes\\Desktop\\repos\\eduPortalBackend\\src\\educationPortal.Core\\educationPortal.Core.csproj": {
+            "projectPath": "C:\\Users\\Enes\\Desktop\\repos\\eduPortalBackend\\src\\educationPortal.Core\\educationPortal.Core.csproj"
           }
         }
       }
